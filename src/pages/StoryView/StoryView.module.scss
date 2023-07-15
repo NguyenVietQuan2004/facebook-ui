@@ -1,0 +1,237 @@
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.94);
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding-right: 50%;
+    padding-left: 50%;
+    // padding-right: 1000px;
+    // padding-left: 1000px;
+}
+
+// item
+.StoryViewItem {
+    min-width: 220px;
+    height: 350px;
+    background-color: rgb(189, 219, 219);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all 0.1s linear;
+    margin: 0 10px;
+}
+.StoryViewItem:hover .backIcon,
+.StoryViewItem:hover .nextIcon {
+    opacity: 0.8;
+}
+// .StoryViewItem:not(.active) {
+// }
+.wrapperHeader {
+    z-index: 2;
+}
+.StoryViewItem.active {
+    min-width: 380px;
+    height: 680px;
+}
+.StoryViewItem + .StoryViewItem {
+    margin-left: 80px;
+}
+.progressWrap {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    margin: 22px auto;
+    margin-bottom: 10px;
+    .progress {
+        width: 0;
+        height: 3px;
+        background-color: rgb(92, 175, 220);
+        transition: 0.3s;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 19px 0 19px;
+    font-weight: 600;
+    z-index: 2;
+    svg {
+        font-size: 2.2rem;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    span {
+        color: white !important;
+    }
+}
+.custom {
+    display: flex;
+    align-items: center;
+    div {
+        display: flex;
+        align-items: center;
+    }
+    span {
+        margin-left: -16px;
+        font-size: 1.4rem;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+.wrapperFooter {
+    background-color: transparent;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 14px;
+    z-index: 2;
+    input {
+        color: white;
+        border-radius: 30px;
+        background-color: transparent;
+        border: 2px solid white;
+        outline: none;
+        flex: 1;
+        height: 100%;
+        font-size: 1.6rem;
+        padding-left: 16px;
+        margin-right: 10px;
+    }
+}
+.HeartIcon {
+    font-size: 2.4rem;
+    margin: 0 16px 0 12px;
+    animation: heartShow 0.2s linear forwards;
+}
+@keyframes heartShow {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.24;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.nextIcon,
+.backIcon {
+    cursor: pointer;
+    position: absolute;
+    z-index: 11;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.3;
+    animation: showIcon 0.4s linear;
+}
+@keyframes showIcon {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+.backIcon {
+    left: calc(50% - 226px);
+}
+.nextIcon {
+    right: calc(50% - 226px);
+}
+.closeIcon {
+    cursor: pointer;
+    position: fixed;
+    font-size: 44px;
+    left: 94%;
+    top: 20px;
+    opacity: 0.5;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.StoryViewItemImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.heartAnimation {
+    position: absolute;
+    bottom: 31px;
+    right: 77px;
+    width: 20px;
+    height: 20px;
+    animation: heartAnimation 1s forwards;
+}
+
+@keyframes heartAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+        scale: 1;
+    }
+    50% {
+        transform: translateY(-50px);
+        opacity: 1;
+        scale: 1.1;
+    }
+    100% {
+        transform: translateY(-100px);
+        display: none;
+        opacity: 0;
+        scale: 1.2;
+    }
+}
+
+.textAnimation {
+    position: absolute;
+    bottom: 30px;
+    left: 37px;
+    width: 210px;
+    overflow: hidden;
+    color: white;
+    animation: textAnimation 2.5s forwards;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: translate(0, 0);
+        scale: 1;
+        opacity: 1;
+    }
+    50% {
+        scale: 2;
+        transform: translate(90px, -80px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(100px, -100px);
+        scale: 2.2;
+        opacity: 0;
+    }
+}

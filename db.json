@@ -1,0 +1,191 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Quan",
+            "nameLogin": "vietquan",
+            "password": 123456,
+            "avatar": "https://img5.thuthuatphanmem.vn/uploads/2021/11/30/hinh-anh-meo-cute-chibi-ngau-nhat_095500531.jpg",
+            "profile": "/profile",
+            "postImage": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "caption": "This is my post",
+            "dayUploadPost": "01 Thursday July"
+        },
+        {
+            "id": 2,
+            "name": "MarkZuckerberg",
+            "nameLogin": "Mark123",
+            "password": 123456,
+            "avatar": "https://tse4.mm.bing.net/th?id=OIP.Km7S0jP80f6Qn2LMrfKLRQHaFd&pid=Api&P=0&h=180",
+            "profile": "/profile",
+            "story": "https://f52-zvc.zdn.vn/7fb0257a2200c95e9011/661854895345021702"
+        },
+        {
+            "id": 3,
+            "name": "Donal Trump",
+            "nameLogin": "Donal123",
+            "password": 123456,
+            "avatar": "https://tse3.mm.bing.net/th?id=OIP.FY8yAUGcWIUuL1glAW3g-gHaEz&pid=Api&P=0&h=180",
+            "profile": "/profile",
+            "story": "https://f52-zvc.zdn.vn/7fb0257a2200c95e9011/661854895345021702"
+        }
+    ],
+    "SuggestedAccount": [
+        {
+            "id": 1,
+            "name": "Laura",
+            "nameLogin": "vietquan",
+            "password": 123456,
+            "storyImage": "https://f10-zpcloud.zdn.vn/3978806939957265190/3f4d94aafc282c767539.jpg",
+            "avatar": "https://f10-zpcloud.zdn.vn/7716103276598697543/c1763edb5f598f07d648.jpg",
+            "profile": "/profile"
+        },
+        {
+            "id": 2,
+            "name": "Alan",
+            "nameLogin": "Mark123",
+            "password": 123456,
+            "story": "https://f44-zvc.zdn.vn/0fc5ab58eb22007c5933/383442158512417642",
+            "avatar": "https://f10-zpcloud.zdn.vn/3978806939957265190/3f4d94aafc282c767539.jpg",
+            "profile": "/profile",
+            "kkkkk": "https://f45-zvc.zdn.vn/818e941cd4663f386677/4199197387171417146"
+        },
+        {
+            "id": 3,
+            "name": "Black Silver",
+            "nameLogin": "Donal123",
+            "password": 123456,
+            "avatar": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "profile": "/profile",
+            "story": "https://f49-zvc.zdn.vn/aa82f610b66a5d34047b/2151143041107592951"
+        },
+        {
+            "id": 4,
+            "name": "Kille",
+            "nameLogin": "vietquan",
+            "password": 123456,
+            "avatar": "https://f10-zpcloud.zdn.vn/849734669586344411/e757303647b497eacea5.jpg",
+            "profile": "/profile",
+            "storyImage": "https://f10-zpcloud.zdn.vn/7850439873626286700/bdfcc505b68766d93f96.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Mango",
+            "nameLogin": "Mark123",
+            "password": 123456,
+            "avatar": "https://f10-zpcloud.zdn.vn/7850439873626286700/bdfcc505b68766d93f96.jpg",
+            "profile": "/profile",
+            "story": "https://f9-zvc.zdn.vn/43f79285d2ff39a160ee/6585552849443932587"
+        },
+        {
+            "id": 6,
+            "name": "Charles",
+            "nameLogin": "Donal123",
+            "password": 123456,
+            "avatar": "https://f9-zpcloud.zdn.vn/1526078366324062742/62cb37ab48299877c138.jpg",
+            "profile": "/profile",
+            "story": "https://f41-zvc.zdn.vn/70389fa5dfdf34816dce/7280443214956212461"
+        },
+        {
+            "id": 7,
+            "name": "Erika",
+            "nameLogin": "Mark123",
+            "password": 123456,
+            "avatar": "https://f10-zpcloud.zdn.vn/2356477933338882592/dcbb794e02ccd2928bdd.jpg",
+            "profile": "/profile",
+            "story": "https://f52-zvc.zdn.vn/7fb0257a2200c95e9011/661854895345021702"
+        },
+        {
+            "id": 8,
+            "name": "Maloch",
+            "nameLogin": "Mark123",
+            "password": 123456,
+            "avatar": "https://f10-zpcloud.zdn.vn/5659634764489002871/a3303e47bfc56f9b36d4.jpg",
+            "profile": "/profile",
+            "story": "https://f52-zvc.zdn.vn/7fb0257a2200c95e9011/661854895345021702"
+        }
+    ],
+    "Posts": [
+        {
+            "id": 1,
+            "name": "laura",
+            "avatar": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "profile": "/profile",
+            "post": "https://f27-zvc.zdn.vn/beaddcb3edb606e85fa7/2692888995081893035",
+            "dayUploadPost": "18 Tuesday January",
+            "caption": "My wedding #wedding #happy"
+        },
+        {
+            "id": 2,
+            "name": "Charles",
+            "password": 123456,
+            "avatar": "https://f9-zpcloud.zdn.vn/1526078366324062742/62cb37ab48299877c138.jpg",
+            "profile": "/profile",
+            "postImage": "https://f10-zpcloud.zdn.vn/7716103276598697543/c1763edb5f598f07d648.jpg",
+            "dayUploadPost": "23 Monday March",
+            "caption": "China Music #music #china"
+        },
+        {
+            "id": 3,
+            "name": "Alan",
+            "avatar": "https://f10-zpcloud.zdn.vn/5659634764489002871/a3303e47bfc56f9b36d4.jpg",
+            "profile": "/profile",
+            "post": "https://f53-zvc.zdn.vn/3d6490eba1ee4ab013ff/2297575885149690954",
+            "dayUploadPost": "01 Thursday July",
+            "caption": "Live together #music #china"
+        },
+        {
+            "id": 4,
+            "name": "Balen",
+            "avatar": "https://f10-zpcloud.zdn.vn/2356477933338882592/dcbb794e02ccd2928bdd.jpg",
+            "profile": "/profile",
+            "postImage": " https://f10-zpcloud.zdn.vn/3978806939957265190/3f4d94aafc282c767539.jpg",
+            "dayUploadPost": "30 Sunday September",
+            "caption": "peaceful!!!! #music #vietnam"
+        },
+        {
+            "id": 5,
+            "name": "Posick",
+            "avatar": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "profile": "/profile",
+            "post": "https://f52-zvc.zdn.vn/7b183f2e0e2be575bc3a/8001752738554086429",
+            "dayUploadPost": "21 Wednesday October",
+            "caption": "My wedding #wedding #happy"
+        },
+        {
+            "id": 6,
+            "name": "Kiell",
+            "avatar": "https://f10-zpcloud.zdn.vn/3978806939957265190/3f4d94aafc282c767539.jpg",
+            "profile": "/profile",
+            "postImage": "https://f10-zpcloud.zdn.vn/2356477933338882592/dcbb794e02ccd2928bdd.jpg",
+            "dayUploadPost": "03 Tuesday November",
+            "caption": "My wedding #wedding #happy"
+        }
+    ],
+    "MyPost": [
+        {
+            "id": 1,
+            "name": "Quan",
+            "avatar": "https://img5.thuthuatphanmem.vn/uploads/2021/11/30/hinh-anh-meo-cute-chibi-ngau-nhat_095500531.jpg",
+            "postImage": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "caption": "This is my post",
+            "dayUploadPost": "01 Thursday July"
+        },
+        {
+            "id": 2,
+            "name": "Quan",
+            "avatar": "https://img5.thuthuatphanmem.vn/uploads/2021/11/30/hinh-anh-meo-cute-chibi-ngau-nhat_095500531.jpg",
+            "post": "https://f27-zvc.zdn.vn/beaddcb3edb606e85fa7/2692888995081893035",
+            "caption": "This is my post",
+            "dayUploadPost": "01 Thursday July"
+        },
+        {
+            "id": 3,
+            "name": "Quan",
+            "avatar": "https://img5.thuthuatphanmem.vn/uploads/2021/11/30/hinh-anh-meo-cute-chibi-ngau-nhat_095500531.jpg",
+            "postImage": "https://f10-zpcloud.zdn.vn/7904648574832590685/2c08bf09ca8b1ad5439a.jpg",
+            "caption": "This is my post",
+            "dayUploadPost": "01 Thursday July"
+        }
+    ]
+}

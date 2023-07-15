@@ -1,0 +1,17 @@
+.infoUser {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    span {
+        white-space: nowrap;
+        margin-left: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.infoUserImage {
+    width: 50px;
+    height: 50px;
+}

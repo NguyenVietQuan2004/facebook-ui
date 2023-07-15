@@ -1,0 +1,116 @@
+.wrapper {
+    margin-top: 30px;
+}
+
+// item
+.PostItem {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px 10px 30px;
+}
+.PostItem + .PostItem {
+    margin-top: 30px;
+}
+.customUser {
+    span {
+        margin-left: 10px;
+        p {
+            font-style: italic;
+            line-height: 20px;
+        }
+    }
+}
+.caption {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 16px;
+}
+.content {
+    width: 100%;
+    margin: 14px auto 0;
+    video {
+        border-radius: 6px;
+        font-size: 160px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.split {
+    width: 100%;
+    height: 1.5px;
+    background-color: grey;
+    margin-top: 14px;
+}
+.actions {
+    margin-top: 20px;
+    margin-left: 10px;
+    span {
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+    }
+    span + span {
+        margin-left: 50px;
+    }
+}
+.iconAction {
+    margin-right: 6px;
+    font-size: 24px;
+
+    path {
+        fill: grey;
+    }
+}
+.iconActionHearted {
+    font-size: 24px;
+    fill: currentColor;
+    margin-right: 6px;
+}
+.kkk {
+    height: 400px;
+}
+.PostItem {
+    .visibilityVideo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 320px;
+        height: 170px;
+        z-index: 11;
+        border-radius: 10px;
+        overflow: hidden;
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+    z-index: 12;
+}
+.closeIcon:hover {
+    opacity: 1;
+}
+.contentImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    img {
+        border-radius: 6px;
+
+        // width: 100%;
+        // height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}

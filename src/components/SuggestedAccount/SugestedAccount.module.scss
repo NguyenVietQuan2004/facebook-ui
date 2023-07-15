@@ -1,0 +1,40 @@
+.wrapper {
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px grey;
+    margin-top: 20px;
+    padding: 20px;
+    overflow-y: auto;
+    h3 {
+        margin-bottom: 20px;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        span {
+            margin-right: 6px;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+        }
+    }
+}
+.wrapper::-webkit-scrollbar {
+    width: 0; /* Ẩn thanh cuộn trên trình duyệt Chrome và các trình duyệt sử dụng WebKit */
+}
+
+// account item
+.accountItem + .accountItem {
+    margin-top: 12px;
+}
+.accountItem {
+    background-color: var(--background-color-content);
+    box-shadow: 1px 2px 3px grey;
+    padding: 6px 0 6px 10px;
+    border-radius: 4px;
+}

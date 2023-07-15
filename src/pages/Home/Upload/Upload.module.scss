@@ -1,0 +1,26 @@
+.wrapper {
+    margin-top: 260px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    padding: 18px 18px 18px 22px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px grey;
+}
+.wrapperInput {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color-content);
+    flex: 1;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-left: 4px;
+    input {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        outline-style: none;
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,47 @@
+@import 'normalize.css';
+
+:root {
+    --text-color: black;
+    --background-sibar-color: rgb(234, 184, 184);
+    --background-sibar-info-user: rgb(217, 205, 205);
+    --background-color-content: #f0f2f5;
+    --height--home: 3000px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+svg {
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    height: 100%;
+}
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+button {
+    border: none;
+    outline-style: none;
+}

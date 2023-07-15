@@ -1,0 +1,161 @@
+// header
+:root {
+    --sidebar-width: 250px;
+    --header-height: 52px;
+    --infoUser-height: 58px;
+}
+.wrapper {
+    width: 80px;
+    background-color: white;
+    padding: 20px 12px 0;
+    transition: all 0.5s linear;
+    color: #c3c5c8;
+    height: 800px;
+}
+.wrapper.notallowCollapse {
+    width: var(--sidebar-width);
+}
+.wrapper.allowCollapse:hover {
+    width: var(--sidebar-width);
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    background: linear-gradient(rgb(101, 64, 202), rgb(19, 209, 111));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.iconSnow {
+    font-size: 52px;
+    margin-right: 8px;
+}
+
+.Collapse {
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.Collapse::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(58, 17, 173), rgb(20, 188, 121));
+    pointer-events: none;
+}
+.Collapse:hover {
+    background-color: rgb(110, 194, 227);
+    overflow: hidden;
+    border-radius: 4px;
+    .iconMenu path {
+        fill: #ffffff; /* hoặc 'white' */
+    }
+    &::before {
+        border: none;
+        border-image: none;
+    }
+}
+.iconMenuShowBackground {
+    background-color: rgb(110, 194, 227);
+    .iconMenu path {
+        fill: #ffffff; /* hoặc 'white' */
+    }
+    &::before {
+        border: none;
+        border-image: none;
+    }
+}
+.iconMenu {
+    font-size: 14px;
+}
+
+.iconMenuHide {
+    margin-left: 23px;
+}
+.header {
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// interact
+.contentSidebar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoUserSidebar {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    height: var(--infoUser-height);
+    border-radius: 10px;
+    background-color: var(--background-color-content);
+    padding-left: 6px;
+    position: relative;
+    overflow: hidden;
+
+    span {
+        position: absolute;
+        left: 58px;
+        background: linear-gradient(rgb(101, 64, 202), rgb(19, 209, 111));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 18px;
+    }
+}
+.infoUserHide {
+    height: var(--infoUser-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interact {
+    font-size: 2rem;
+    margin-top: 20px;
+    svg {
+        margin: 0;
+    }
+
+    a {
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+    }
+    a:hover {
+        background-color: var(--background-color-content);
+    }
+    .iconInteract {
+        font-size: 30px;
+        margin-right: 12px;
+        width: 30px;
+    }
+
+    span {
+        white-space: nowrap;
+    }
+}
+.interactHide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+        margin-left: 12px;
+    }
+}

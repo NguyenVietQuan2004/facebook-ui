@@ -1,0 +1,30 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-family);
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+    min-width: 100px;
+    padding: 10.5px 16px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid transparent;
+    user-select: none;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--background-color-content);
+    }
+    span {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        text-align: start;
+    }
+}
+.icon + span,
+span + .icon {
+    margin-left: 8px;
+}

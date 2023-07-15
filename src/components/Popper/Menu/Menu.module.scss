@@ -1,0 +1,17 @@
+// Menu Ửapper
+.menu-list {
+    width: 200px;
+}
+//Menu item
+// header-item
+.header-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .header-title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

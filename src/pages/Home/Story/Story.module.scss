@@ -1,0 +1,88 @@
+.model {
+    width: 0;
+    height: 0;
+}
+.wrapper {
+    margin-top: 40px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    position: absolute;
+    z-index: 1;
+    padding-right: 8px;
+    width: 97.5%;
+}
+.wrapper::-webkit-scrollbar {
+    // width: 0; /* Ẩn thanh cuộn trên trình duyệt Chrome và các trình duyệt sử dụng WebKit */
+    // height: 0;
+    display: none;
+}
+
+// storyItem
+.StoryItem {
+    min-width: 120px;
+    max-width: 120px;
+    height: 180px;
+    border-radius: 20px;
+    border: 4px solid rgb(70, 127, 183);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    cursor: pointer;
+
+    video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+.storyImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+.StoryItem + .StoryItem {
+    margin-left: 30px;
+}
+.NextIcon,
+.BackIcon {
+    font-size: 30px;
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.NextIcon {
+    // left: 615px;
+    right: 0;
+    top: 274px;
+    z-index: 12;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+.BackIcon {
+    left: 37px;
+    top: 274px;
+    z-index: 12;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.customUser {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    img {
+        border: 3px solid white;
+    }
+}

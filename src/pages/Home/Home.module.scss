@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 84px 0 100px 30px;
+    position: relative;
+    height: var(--height--home);
+    height: 1000px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.wrapper::-webkit-scrollbar-thumb {
+    display: none;
+}
+.header {
+    padding-left: 20px;
+    h1 {
+        font-size: 4rem;
+        line-height: 4.2rem;
+        color: rgb(82, 74, 197);
+    }
+    h3 {
+        color: hsl(266, 8%, 67%);
+    }
+}
+.seemore {
+    width: 20%;
+    margin: 20px auto 0;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+}
